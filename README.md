@@ -1,13 +1,68 @@
 # TeamBravoLogin
 
+# Contributions
+
+*The images used are not from this repository, it is there to make you understand how to go about updating your repo*
 ## Fork the repository
-## go to your copy on your github profile and clone it.
-## Create a new branch, work on it and then push it to your repository
-## Open a pull request then i will merge it
+
+go to https://github.com/RaphaelNagato/TeamBravoLogin , fork the repository by clicking on the _fork_ button at the top of the page,
+
+![ScreenShot](https://res.cloudinary.com/raphaelnagato/image/upload/v1567259047/gitapad2.png)
+
+## Clone the repository
+
+go to your forked repository on your Github profile and copy the URL to your forked repository, from _clone or download_ button
+
+![ScreenShot](https://res.cloudinary.com/raphaelnagato/image/upload/v1567259048/giftapad_3.png)
+
+then go to your terminal on your computer and type
+
+`git clone "url you just copied"` e.g `git clone https://github.com/your-username/TeamBravoLogin.git` .
+
+## Create a branch
+
+on your terminal, type `cd TeamBravoLogin` , then create a new branch by using `git checkout` command, `git checkout -b <name-of-new-branch>` , e.g `git checkout -b newBranch`
+
+## Make necessary changes
+
+Make your changes to the repository on your system and when you are through,
+
+Go to the terminal and enter `git status` command, you should see the unstaged files highlighted in red.
+
+stage the changed file by using the command `git add .` e.g just `git add index.html`
+
+(using `git status` command again, will show the files changed highlighted in green)
+
+commit the files using `git commit -m 'your-commit-message'` e.g `git commit -m 'add-index.html'`
+
+## Push your changes to github
+
+push your changes to github using `git push` command
+
+i.e `git push origin <your-branch-name>` replacing <your-branch-name> with the name of the branch you created earlier, e.g `git push origin newBranch`
+
+## Submit changes for review
+
+If you go to your repository on github, you should see compare & pull request button, click on it
+
+![ScreenShot](https://slack-imgs.com/?c=1&o1=ro&url=https%3A%2F%2Fhisham.hm%2Fimg%2Fposts%2Fgithub-comparepr.png)
+
+Now submit the pull request by clicking on _create pull request button_ , remember to add a screenshot of the `team.html` page
+
+![ScreenShot](https://slack-imgs.com/?c=1&o1=ro&url=https%3A%2F%2Fraw.githubusercontent.com%2FRaphaelNagato%2Ffirst-contributions%2Fmaster%2Fassets%2Fsubmit-pull-request.png)
+
+Soon, your changes will be merged.
+
+![ScreenShot](https://res.cloudinary.com/raphaelnagato/image/upload/v1567261134/giftapad5.png)
+
+_CONGRATS ON YOUR CONTRIBUTION!!!_
+
+## What next?
+
 
 # Keep forked repository in sync
 
-*The images used are not from this repository, it is there to make you understand how to go about updating*
+*The images used are not from this repository, it is there to make you understand how to go about updating your repo*
 
 _After Forking and cloning your repository, you start contributing to the main repository and after a while, you notice that your forked repository and the upstream repository are not in sync anymore, usually noticed when your branch have conflicts with the main branch. This guide will make you get the current version of the upstream repository._
 
