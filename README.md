@@ -2,7 +2,7 @@
 
 # Contributions
 
-*The images used are not from this repository, it is there to make you understand how to go about updating your repo*
+*The images used are not from this repository, it is there to make you understand how to go about contributing*
 ## Fork the repository
 
 go to https://github.com/RaphaelNagato/TeamBravoLogin , fork the repository by clicking on the _fork_ button at the top of the page,
